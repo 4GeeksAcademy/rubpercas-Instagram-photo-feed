@@ -1,0 +1,42 @@
+body {
+    background: lightgrey;
+    margin: 0;
+}
+header {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+div.post {
+    background: white;
+}
+div.post h2, div.post.p, div.post-date {
+    padding: 10px;
+    margin: 0;
+}
+div.post-header {
+    display: flex;
+}
+div.post-title {
+    flex-grow: 1;
+}
+div.post-date {
+    color: grey;
+    flex-grow: 1;
+    text-align: right;
+}
+div.post img {
+    width: 100%;
+}
+div.box {
+    width: 600px;
+    margin: auto;
+}
+div.post-comment {
+    padding: 5px;
+    margin-bottom: 10px;
+}
